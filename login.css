@@ -1,0 +1,85 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: navy;
+}
+.cont{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    box-shadow: 0 0 20px white,
+    0 0 40px white,
+    0 0 60px white;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#first{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+#last{
+    width: 150px;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    text-align: center;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+#email{
+    position: relative;
+    top: 45px;
+    width: 250px;
+    padding: 10px;
+    left: 110px;
+    color: white;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+#pass{
+    position: relative;
+    top:65px;
+    padding: 10px;
+    width: 200px;
+    left: 140px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+button{
+    position: relative;
+    top: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 20px white;
+}
